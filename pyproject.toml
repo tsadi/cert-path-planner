@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cert-path-planner"
+version = "0.1.0"
+description = "Standards map, test sequence and certification timeline for MV power electronics, BESS, EV chargers and robots"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Tsadi Shvo"}]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+cert-path = "cert_path.cli:main"
+
+[tool.setuptools]
+packages = ["cert_path"]

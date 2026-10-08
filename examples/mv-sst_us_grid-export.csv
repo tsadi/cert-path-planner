@@ -1,0 +1,12 @@
+phase,standard_id,title,weeks_low,weeks_high,start_week_low,start_week_high
+Plan, hazard analysis, design review,HARA,"Hazard analysis and risk assessment (ISO 12100 method)",2,4,0,0
+Pre-compliance testing (in-house or lab),PRECOMP,"Pre-compliance safety and EMC screening",4,8,2,4
+Product / system safety,UL2877,"UL 2877 outline of investigation, medium-voltage power supplies",16,30,6,12
+EMC and radio,FCC15B,"FCC Part 15 Subpart B unintentional radiators",2,4,6,12
+Grid interconnection,UL1741SB,"UL 1741 SB grid support, tested to IEEE 1547.1-2020",8,16,6,12
+Grid interconnection,IEEE1547,"IEEE 1547-2018 interconnection requirements and utility settings",2,6,6,12
+Functional safety and cybersecurity,UL1998,"UL 1998 / UL 60730-1 Annex H software for safety controls",8,16,6,12
+Functional safety and cybersecurity,IEC62443,"IEC 62443-4-1/-4-2 secure development and component security",8,16,6,12
+Functional safety and cybersecurity,UL2941,"UL 2941 cybersecurity for DER and inverter-based resources",6,12,6,12
+Listing, factory inspection, technical file,LISTING,"NRTL listing, initial production inspection, follow-up service",2,6,22,42
+Installation code / AHJ approval,NEC,"NEC (NFPA 70) installation, field inspection, utility interconnection agreement",4,12,24,48
